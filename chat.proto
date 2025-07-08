@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package chat;
+
+// ChatMessage represents a message sent between clients.
+message ChatMessage {
+  string username = 1;
+  string message = 2;
+}
+
+// ChatService defines a bi-directional streaming RPC.
+service ChatService {
+  rpc ChatStream(stream ChatMessage) returns (stream ChatMessage);
+}
