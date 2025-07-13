@@ -15,7 +15,12 @@ Ciljevi projekta su:
 - GUI sučelje u tkinteru s prikazom povijesti poruka
 
 ## Pokretanje servisa (Windows)
-Za pokretanje servisa potrebno je postaviti se u mapu u kojoj se nalaze python skripte ovog projekta, a nakon toga potrebno je pokrenuti server i klijent na način da se u naredbeni redak Windowsa upišu sljedeće naredbe:
+Za pokretanje servisa potrebno je imati instaliran [Python](https://www.python.org/downloads/) i [Git](https://git-scm.com/downloads) na vašem računalu. Nakon instalacije potrebno je klonirati ovaj repozitorij i postaviti se u mapu u kojoj se nalaze python skripte ovog projekta, te pokrenuti server i klijent na način da se u naredbeni redak Windowsa upišu sljedeće naredbe:
+Naredba za kloniranje projekta:
+```cmd 
+git clone https://github.com/LazaCoder/gRPCprojekt 
+```
+Naredba za pozicioniranje u mapu (stavite vaš path):
 ```cmd 
 cd put/do/vaseg/direktorija
 ```
@@ -30,4 +35,10 @@ python chat_client.py
 > [!NOTE]
 > Server i klijent potrebno je pokrenuti u različitim prozorima naredbenog retka. Također, potrebno je pokrenuti klijenta dva puta (svaki u svom prozoru) ako želimo simulirati dva korisnika.
 
+## Moguća proširenja
+- Privatne poruke
+- Pohrana poruka (npr. PostgreSQL)
+- Web sučelje (Flask / React frontend)
+- Autentifikacija korisnika
+- Enkripcija poruka
 
