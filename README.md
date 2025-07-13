@@ -27,4 +27,7 @@ Te za pokretanje klijenta:
 ```cmd
 python chat_client.py
 ```
+> [!NOTE]
+> Server i klijent potrebno je pokrenuti u različitim prozorima naredbenog retka. Također, potrebno je pokrenuti klijenta dva puta (svaki u svom prozoru) ako želimo simulirati dva korisnika.
+
 
