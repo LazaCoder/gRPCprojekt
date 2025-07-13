@@ -13,3 +13,7 @@ Ciljevi projekta su:
 - Svaki klijent vidi poruke svih drugih korisnika
 - Timestamp svakog slanja poruke
 - GUI sučelje u tkinteru s prikazom povijesti poruka
+
+## Pokretanje servisa (Windows)
+Za pokretanje servisa potrebno je postaviti se u mapu u kojoj se nalaze python skripte ovog projekta, a nakon toga potrebno je pokrenuti server i klijent na način da se u naredbeni redak Windowsa upišu sljedeće naredbe:
+```cmd # Pokreni server python chat_server.py # Pokreni klijenta dva puta python chat_client.py ``` 
