@@ -16,7 +16,6 @@ Ciljevi projekta su:
 
 ## Pokretanje servisa (Windows)
 Za pokretanje servisa potrebno je imati instaliran [Python](https://www.python.org/downloads/) i [Git](https://git-scm.com/downloads) na vašem računalu. Nakon instalacije potrebno je klonirati ovaj repozitorij i postaviti se u mapu u kojoj se nalaze python skripte ovog projekta, te pokrenuti server i klijent na način da se u naredbeni redak Windowsa upišu sljedeće naredbe:
-Naredba za kloniranje projekta:
 ```cmd 
 git clone https://github.com/LazaCoder/gRPCprojekt 
 ```
